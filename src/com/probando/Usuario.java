@@ -4,6 +4,15 @@ public class Usuario {
 	private String nombre;
 	private int edad;
 	private String apellido;
+	private int dedos;
+
+	public int getDedos() {
+		return dedos;
+	}
+
+	public void setDedos(int dedos) {
+		this.dedos = dedos;
+	}
 
 	public String getNombre() {
 		return nombre;
