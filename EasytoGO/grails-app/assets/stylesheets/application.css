@@ -1,0 +1,18 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS file within this directory can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the top of the
+* compiled file, but it's generally better to create a new file per style scope.
+*
+*= require main
+*= require mobile
+*= require_self
+*/
+.interactive-slider-v2.img-v1 {
+  background: url('${resource(dir: "images", file: "carre.jpg")}') no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
